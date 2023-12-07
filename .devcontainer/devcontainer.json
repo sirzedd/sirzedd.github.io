@@ -1,0 +1,21 @@
+{
+    "name": "Website",
+    "image": "mcr.microsoft.com/devcontainers/jekyll",
+    "remoteUser": "vscode",
+    "shutdownAction": "stopContainer",
+    "forwardPorts": [4000],
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+          "version": "latest"
+        }
+      },
+      "extensions": [
+        "rebornix.Ruby",
+        "yzhang.markdown-all-in-one",
+        "kargware.vscode-extension-jekyll-kw",
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "ginfuru.vscode-jekyll-snippets",
+        "dedsec727.jekyll-run",
+        "george-alisson.html-preview-vscode"
+      ]
+}
